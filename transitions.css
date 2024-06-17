@@ -1,0 +1,40 @@
+
+body {
+    background-color: white;   
+    transition-duration: 0.4s;
+   }
+
+h1 {
+    font-size: 2em;
+    transition-duration: 0.4s;
+    color: magenta;
+}
+
+h1:hover {
+    font-size: 4em;
+    color: cyan;
+}
+
+button:hover {
+    transform: translateX(200px);
+    transition: transform 2s;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: rebeccapurple;
+    border: rebeccapurple 1px solid;
+    padding: 1em;
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+a:hover {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+/* Note: transform and opacity recommended for smooth transitions in terms of performance */
